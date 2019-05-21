@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="85dp">
+
+    <LinearLayout
+        android:id="@+id/top1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="10dp"
+            android:background="@layout/shape" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:text="搜索"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/screen"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:text="筛选"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <Button
+            android:id="@+id/recommend"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="推荐" />
+        <Button
+            android:id="@+id/teleplay"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="电视剧" />
+
+        <Button
+            android:id="@+id/movie"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="电影" />
+
+        <Button
+            android:id="@+id/variety"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="综艺" />
+        <Button
+            android:id="@+id/cartoon"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="动漫" />
+        <Button
+            android:id="@+id/sports"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="体育" />
+    </LinearLayout>
+</LinearLayout>
