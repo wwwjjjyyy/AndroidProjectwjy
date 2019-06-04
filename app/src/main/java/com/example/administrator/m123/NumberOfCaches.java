@@ -14,7 +14,7 @@ import android.widget.Toast;
 import com.example.administrator.m123.R;
 
 public class NumberOfCaches extends AppCompatActivity {
-    ImageButton imgreturnmyset;
+    ImageButton img_returnmyset;
     RadioButton radioButton1,radioButton2,radioButton3;
     RadioGroup radioGroup;
     @Override
@@ -24,8 +24,8 @@ public class NumberOfCaches extends AppCompatActivity {
             getSupportActionBar().hide();
         }
         setContentView(R.layout.numberofcaches);
-        imgreturnmyset=(ImageButton)findViewById(R.id.imgreturnmyset);
-        imgreturnmyset.setOnClickListener(new View.OnClickListener() {
+        img_returnmyset=(ImageButton)findViewById(R.id.imgreturnmyset);
+        img_returnmyset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(NumberOfCaches.this,MySet.class);
